@@ -9,9 +9,8 @@
             <div class="navbar-nav">
                 <a class="nav-link" href="{{ route('home') }}">Home</a>
                 <a class="nav-link" href="{{ route('about') }}">Chi siamo</a>
-                <a class="nav-link" href="{{ route('books') }}">I miei Libri</a>
                 <a class="nav-link" href="{{ route('contacts') }}">Contatti</a>
-                <a class="nav-link" href="{{ route('badbooks') }}">Libri Peggiori</a>
+                <a class="nav-link" href="{{ route('myPizzas') }}">Le mie pizze</a>
             </div>
         </div>
     </div>

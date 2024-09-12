@@ -22,6 +22,7 @@ Route::get('/contatti', [PageController::class, 'contacts'])->name('contacts');
 Route::get('/books', [PageController::class, 'books'])->name('books');
 Route::get('/badbooks', [PageController::class, 'badBooks'])->name('badbooks');
 Route::get('/bookdetail/{id}', [PageController::class, 'bookDetail'])->name('bookdetail');
+Route::get('/le-mie-pizze', [PageController::class, 'myPizzas'])->name('myPizzas');
 //PASSAGGI
 //CREO IL CONTROLLER
 //AGGIUNGO I METODI RELATIVI ALLE ROTTE
